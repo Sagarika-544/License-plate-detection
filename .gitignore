@@ -1,0 +1,26 @@
+# =============================================
+# Intelligent RTO Nexus - .gitignore
+# =============================================
+
+# System & OS
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# AI Models (Cloud will download these automatically)
+*.pt
+*.weights
+
+# Local Data & Logs
+logs/
+screenshots/
+captures/
+.ipynb_checkpoints/
+
+# Streamlit Local Secrets
+.streamlit/secrets.toml

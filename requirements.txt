@@ -1,0 +1,17 @@
+# HARDENED STABLE REQUIREMENTS FOR CLOUD
+# ==================================
+streamlit>=1.32.0
+pandas>=2.0.0
+Pillow>=9.5.0
+numpy>=1.24.0
+
+# VISION ENGINE (pinned for stability with torch/vision)
+# ===================================================
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics==8.2.0
+opencv-python-headless==4.9.0.80
+
+# OCR ENGINE
+# ==========
+easyocr==1.7.1
